@@ -1,0 +1,38 @@
+{
+  "name": "react-router-7-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./server.js",
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanKeck/react-router-7-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanKeck/react-router-7-tutorial/issues"
+  },
+  "homepage": "https://github.com/DylanKeck/react-router-7-tutorial#readme",
+  "dependencies": {
+    "@react-router/express": "^7.6.3",
+    "@react-router/node": "^7.6.3",
+    "cross-env": "^7.0.3",
+    "express": "^5.1.0",
+    "isbot": "^5.1.28",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.3"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.6.3",
+    "vite": "^7.0.4"
+  },
+  "type": "module"
+}
+
